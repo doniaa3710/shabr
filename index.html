@@ -17,42 +17,92 @@
     <!--custom-->
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <script src="script.js"></script>
+    <style>
+        #pageopen {
+            color: rgba(0, 0, 150, 40);
+            background: url("balloon-1.jpg") no-repeat;
+            font-family: 'Righteous', cursive;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="title">
-    <h1>Skydance Hot Air Balloon Rides</h1>
-    <h3>Ride with the wind. Dance with the sky.</h3>
-</div> 
-<body>
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+    <div class="title" id="pageopen">
+        <h1>Skydance Hot Air Balloon Rides</h1>
+        <h3>Ride with the wind. Dance with the sky.</h3>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Info</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Testimonial</a></li>
-      <li><a href = "#">Contact Info </a></li>
-    </ul>
-  </div>
-</nav>
-<div id = "contact info" class = "container">
-<p>Contact: We’d love to hear from you</p><br>
-<p>Address
-SHABR, Inc.
-1234 Shabr Road
-Somewhere, OT 80013</p><br>
-<p><span class = "glyphicon glyphicon-earphone">Phone: (555) 555-1234</p></span><br>
 
-Copyright © 2016   |   SHABR
-    
-</div>
-</body>
+    <body>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#Testimonials">Testimonial</a></li>
+                    <li><a href="#contact info">Contact Info </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id=#home>
+            <h2>Home: Fun for Everyone</h2>
+            <p>Come make a new memory with us. There's nothing else like it.</p>
+            <p>Fun for both adults and kids. All are welcome!</p>
+            <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
+
+        </div>
+        <div id="info">
+            <h2>Info: All the information you'll need</h2>
+            <h4>Time</h4>
+            <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
+                for the exact meeting time.</p>
+            <h4>Weather</h4>
+            <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+                their balloon flight.</p>
+            <h4>Flight</h4>
+            <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+            <h4>Participation</h4>
+            <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div id="gallery">
+                        <h2>Gallery</h2>
+                        <img src="/bootstrap/shabr/img/balloon-1.jpg" alt="view"></img>
+                        <img src="/bootstrap/shabr/img/balloon-2.jpg" alt="fire ballon"></img>
+                        <img src="/bootstrap/shabr/img/balloon-3.jpg" alt="purple balloon"></img>
+                        <img src="/bootstrap/shabr/img/balloon-4.jpg" alt="closeup"></img>
+                        <img src="/bootstrap/shabr/img/balloon-5.jpg" alt="shadow"></img>
+                        <img src="/bootstrap/shabr/img/balloon-6.jpg" alt="firing up"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Testimonials">
+            <h2>Testimonials: Just a few of our happy customers</h2>
+            <p>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.</p>
+            <p>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.</p>
+            <p>"Thanks so much for making our experience so perfect. I definitely want to go back again! -- Linda T.</p>
+            <p>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P.</p>
+            <p>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.</p>
+            <p>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.</p>
+
+
+        </div>
+        <div id="contact info" class="container">
+            <h2>Contact: We’d love to hear from you</h2><br>
+            <p>Address SHABR, Inc. 1234 Shabr Road Somewhere, OT 80013</p><br>
+            <p><span class="glyphicon glyphicon-earphone">Phone: (555) 555-1234</p></span><br> Copyright © 2016 | SHABR
+
+        </div>
+    </body>
 
 </html>
