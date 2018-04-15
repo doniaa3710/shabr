@@ -74,3 +74,9 @@ h2 {
       background: src("img/ballonon-1.jpg") no-repeat;
       font-family: 'Righteous', cursive;
     }
+
+    #progress{
+        position:fixed;
+        height:40px;
+        overflow:scroll;
+    }
