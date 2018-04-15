@@ -1,4 +1,76 @@
-h1, h3 {
+h1{
     text-align: center;
+    color: #83AE9B;
+    font-family: 'Lato', cursive;
     
 }
+
+.affix{
+    top: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+     background-color: white;
+}
+.title, h1{
+    padding-top: 150px;
+   font-size: 80px;
+   background-color: #152A30;
+   padding-bottom: 150px;
+}
+ 
+.container, .pager {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 55px;
+    text-align: center;
+    color: #C8C8A9;
+    font-family: 'junction', cursive;
+}
+
+.context {
+    font-size: 35px;
+    text-align: center;
+   background-color: #C8C8A9;
+   
+   
+}
+h2 {
+    font-size: 45px;
+    padding-top: 50px;
+     padding-bottom: 90px;
+}
+
+
+  @media screen and (max-width:600px) {
+      body {
+        font-size: 12px;
+      }
+
+    }
+
+    @media screen and (min-width:768px) {
+      body {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (min-width:992px) {
+      body {
+        font-size: 20px;
+      }
+    }
+
+    @media screen and (min-width:1200px) {
+      body {
+        font-size: 30px;
+      }
+    }
+
+    #pageopen {
+      color: rgba(0, 0, 150, 40);
+      background: src("img/ballonon-1.jpg") no-repeat;
+      font-family: 'Righteous', cursive;
+    }
