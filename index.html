@@ -20,54 +20,12 @@
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <script src="script.js"></script>
   <style>
-    @media screen and (max-width:600px) {
-      body {
-        font-size: 12px;
-      }
-
-    }
-
-    @media screen and (min-width:768px) {
-      body {
-        font-size: 16px;
-      }
-    }
-
-    @media screen and (min-width:992px) {
-      body {
-        font-size: 20px;
-      }
-    }
-
-    @media screen and (min-width:1200px) {
-      body {
-        font-size: 30px;
-      }
-    }
-
-    #pageopen {
-      color: rgba(0, 0, 150, 40);
-      background: src("img/ballonon-1.jpg") no-repeat;
-      font-family: 'Righteous', cursive;
-    }
+  
   </style>
 </head>
 
-
 <body>
-  <div class="title" id="pageopen">
-    <h1>Skydance Hot Air Balloon Rides</h1>
-    <h3>Ride with the wind. Dance with the sky.</h3>
-  </div>
-
-  <div class='container'>
-    <ul class="pager">
-      <li><a href="#contact info">Click here to see our contact info immediately</a></li>
-    </ul>
-
-  </div>
-
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" data-spy="affix" id="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Up, Up and Away...</a>
@@ -80,17 +38,30 @@
       </ul>
     </div>
   </nav>
-  <div id=#home>
+  
+  <div class="title" id="pageopen">
+    <h1>Skydance Hot Air Balloon Rides</h1>
+    <h3>Ride with the wind. Dance with the sky.</h3>
+  </div>
+
+  <div class='container'>
+    <ul class="pager">
+      <li><a href="#contact info">Click here to see our contact info immediately</a></li>
+    </ul>
+  </div>
+  
+  <div class="context">
     <h2>Home: Fun for Everyone</h2>
     <p>Come make a new memory with us. There's nothing else like it.</p>
     <p>Fun for both adults and kids. All are welcome!</p>
     <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
 
   </div>
-  <div class="container">
+    <div class="container">
     <div id="info" class="jumbotron">
-      <h2>Info: All the information you'll need</h2>
-      <h4>Time</h4>
+  <div class="panel panel-default">
+  <div class="panel-heading">Info: All the information you'll need </div>
+  <div class="panel-body"><h4>Time</h4>
       <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for
         the exact meeting time.</p>
       <h4>Weather</h4>
@@ -99,9 +70,10 @@
       <h4>Flight</h4>
       <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
       <h4>Participation</h4>
-      <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
-    </div>
-  </div>
+      <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p></div>
+</div>
+
+
   <div class="container">
     <div class="row">
       <div id="gallery">
@@ -150,47 +122,65 @@
 
   </div>
 
-
-
-
   <div class="container">
     <h2>Carousel Example</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-      </ol>
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      
+    </ol>
 
       <!-- Wrapper for slides -->
 
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/balloon-1.jpg" alt="view" class="img-responsive"></img>
 
-          <div class="item">
-            <img src="img/balloon-2.jpg" alt="fire ballon" class="img-responsive"></img>
-          </div>
+        <div class="carousel-inner">
 
-          <div class="item">
-            <img src="img/balloon-3.jpg" alt="purple balloon" class="img-responsive"></img>
-
-          </div>
+      <div class="item active">
+        <img src="img/balloon-1.jpg" alt="view" class="img-responsive"> 
+        <div class="carousel-caption">
+        
         </div>
-        <div class="item">
+      </div>
 
-          <img src="img/balloon-4.jpg" alt="closeup" class="img-responsive"></img>
-
+      <div class="item">
+        <img src="img/balloon-2.jpg" alt="fire ballon" class="img-thumbnail">
+        <div class="carousel-caption">
+        
         </div>
-        <div class="item">
-          <img src="img/balloon-6.jpg" alt="firing up" class="img-responsive"></img>
-
+      </div>
+    
+      <div class="item">
+        <img src="img/balloon-3.jpg" alt="fire ballon" class="img-thumbnail">
+        <div class="carousel-caption">
+        
+        </div>
+      </div>
+            <div class="item">
+        <img src="img/balloon-4.jpg" alt="closeup" class="img-thumbnail">
+        <div class="carousel-caption">
+       
+        </div>
+            <div class="item">
+        <img src="img/balloon-5.jpg" alt="shadow" class="img-thumbnail">
+        <div class="carousel-caption">
   
-
-
+        </div>
+             <div class="item">
+        <img src="img/balloon-6.jpg" alt="firing up" class="img-thumbnail">
+        <div class="carousel-caption">
+         
+        </div>
+        
+      </div>
+  
+    </div>
+    
         </div>
       </div>
 
@@ -200,3 +190,18 @@
 </body>
 
 </html>
+ <!-- Below are a few things we finished and in () are the things we need to work on -->
+    
+    <!-- Bootstrap CSS Used: 
+    
+    1.navbar(Lets try making it stay at the top throughout for it to be easier for the viewer)
+    2.carousel(still working on making the image appear after clicking each data-target)
+    3.glyphicon
+    4.jumbotron
+    5.image
+    6.panels
+    7. Grids
+    8. Media Queries
+    -->
+
+
