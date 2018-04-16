@@ -5,6 +5,7 @@ h1{
     
 }
 
+
 .affix{
     top: 0;
     width: 100%;
@@ -20,7 +21,7 @@ h1{
 }
  
 .container, .pager {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 h3 {
@@ -37,13 +38,24 @@ h3 {
    
    
 }
+.panel-body, .panel-heading {
+    background-color: #EF4566;
+}
 h2 {
     font-size: 45px;
     padding-top: 50px;
      padding-bottom: 90px;
+     text-align: center;
 }
 
-
+h4 {
+    font-size: 50px;
+    
+}
+p {
+   font-size: 30px; 
+   
+}
   @media screen and (max-width:600px) {
       body {
         font-size: 12px;
