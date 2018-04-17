@@ -39,7 +39,11 @@ h3 {
    
 }
 .panel-body, .panel-heading {
-    background-color: #EF4566;
+    background: linear-gradient(lightpink, white);
+}
+ #gallery {
+    background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)), url('../img/balloon-1.jpg') center no-repeat fixed;
+    background-size: cover;
 }
 h2 {
     font-size: 45px;
@@ -82,7 +86,7 @@ p {
     }
 
     #pageopen {
-      color: rgba(0, 0, 150, 40);
+      color: rgba(0, 0, 200, 10);
       background: src("img/ballonon-1.jpg") no-repeat;
       font-family: 'Righteous', cursive;
     }
