@@ -34,24 +34,23 @@ h3 {
 .context {
     font-size: 35px;
     text-align: center;
+    background: linear-gradient(-90deg, red, white);
    background-color: #C8C8A9;
    
    
 }
 .panel-body, .panel-heading {
-      opacity: 0.5;
-    filter: alpha(opacity=50);
+    
     background:  url('img/balloon-3.jpg');
-    background: linear-gradient(rgba(15, 63, 173, 0.2), rgba(0, 127, 218, 1));
+    background: linear-gradient(white, #F0C4E7, #D6AEBD);
     background-repeat: no-repeat;
      background-size: cover;
      font-family: sans-serif;
-     color: red;
      font-size: 52px;
-   
-    
-   
+  
 }
+    background: linear-gradient(rgba(15, 63, 173, 0.2), rgba(0, 127, 218, 1));
+    
 #colored {
       text-shadow: 2px 2px red;
       font-size: 100px;
@@ -114,4 +113,30 @@ p {
         position:fixed;
         height:40px;
         overflow:scroll;
+    }
+    
+    #home {
+        font-family: 'Playfair Display', serif;
+        font-size: 80px;
+        color: red;
+        
+    }
+    #home-text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 50px;
+        color: #333640;
+        
+    }
+    #para {
+        font-size: 45px;
+        font-family: 'Quicksand', sans-serif;
+        color: #7B5B6C;
+    }
+    #info {
+        font-size: 70px;
+        
+    }
+    #heads {
+      text-shadow: 2px 2px #7B5B6C;
+        font-size: 60px;
     }
